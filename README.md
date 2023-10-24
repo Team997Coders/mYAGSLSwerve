@@ -1,4 +1,5 @@
-# Yet Another Generic Swerve Library (YAGSL) Example project
+# Configured for FRC Team 997 Swerve Development
+## Yet Another Generic Swerve Library (YAGSL) Example project
 
 YAGSL is intended to be an easy implementation of a generic swerve drive that should work for most
 square swerve drives. The project is documented
@@ -9,7 +10,7 @@ This example is intended to be a starting place on how to use YAGSL. By no means
 be the base of your robot project. YAGSL provides an easy way to generate a SwerveDrive which can be
 used in both TimedRobot and Command-Based Robot templates.
 
-# Overview
+## Overview
 
 ### Installation
 
@@ -25,7 +26,7 @@ https://broncbotz3481.github.io/YAGSL-Lib/yagsl/yagsl.json
 [WIKI](https://github.com/BroncBotz3481/YAGSL/wiki)  
 [Config Generation](https://broncbotz3481.github.io/YAGSL-Example/)
 
-# Create an issue if there is any errors you find!
+## Create an issue if there is any errors you find!
 
 We will be actively montoring this and fix any issues when we can!
 
@@ -64,7 +65,7 @@ File swerveJsonDirectory=new File(Filesystem.getDeployDirectory(),"swerve");
 
 ### Falcon Support would not have been possible without support from Team 1466 Webb Robotics!
 
-# Configuration Tips
+## Configuration Tips
 
 ### My Robot Spins around uncontrollably during autonomous or when attempting to set the heading!
 
