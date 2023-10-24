@@ -86,12 +86,12 @@ public class SwerveSubsystem extends SubsystemBase
    *                      relativity.
    * @param fieldRelative Drive mode.  True for field-relative, false for robot-relative.
    */
-  public void drive(Translation2d translation, double rotation, boolean fieldRelative)
+  public void drive(Translation2d translation, double rotation, boolean fieldRelative, boolean isOpenLoop)
   {
     swerveDrive.drive(translation,
                       rotation,
                       fieldRelative,
-                      false); // Open loop is disabled since it shouldn't be used most of the time.
+                      isOpenLoop); // Open loop is disabled since it shouldn't be used most of the time.
   }
 
   /**
