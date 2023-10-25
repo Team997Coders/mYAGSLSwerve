@@ -28,7 +28,7 @@ To create a JSON directory look at the [JSON documentation](JSON.md).
 
 # Creating a swerve drive.
 
-- [ ] Install NavX, CTRE and REV vendor dependencies.
+- [ ] Install NavX, CTRE, PathPlanner and REV vendor dependencies.
 - [ ] Clone YAGSL. `git clone https://github.com/BroncBotz3481/YAGSL`
 - [ ] Move [swervelib](https://github.com/BroncBotz3481/YAGSL/tree/main/swervelib)
   into `src/main/frc/java/subsystems/swervedrive/swerve`
